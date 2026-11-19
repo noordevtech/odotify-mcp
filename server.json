@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.odotify/mcp",
+  "title": "Odotify",
+  "description": "Manage Odoo hosting on Odotify: servers, instances, backups, deploys, and slow-database diagnosis.",
+  "version": "0.5.1",
+  "websiteUrl": "https://odotify.com/docs/mcp.md",
+  "icons": [
+    {
+      "src": "https://odotify.com/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.odotify.com/mcp"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/noordevtech/odotify-mcp",
+    "source": "github"
+  }
+}
